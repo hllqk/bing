@@ -1,5 +1,22 @@
 {
+   "headers": [{
+    "source": "/(.*)",
+    "headers" : [
+      {
+        "key" : "Referer",
+        "value" : "https://www.pixiv.net"
+      },
+      {
+        "key" : "Access-Control-Allow-Headers",
+        "value" : "content-type"
+      },
+      {
+        "key" : "Access-Control-Allow-Methods",
+        "value" : "DELETE,PUT,POST,GET,OPTIONS"
+      }
+    ]
+  }],
   "rewrites": [
-    {"source": "/(.*)", "destination": "https://bing.com/new/$1"},
+    {"source": "/(.*)", "destination": "https://bing.com/new/$1"}
   ]
 }
