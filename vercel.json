@@ -17,6 +17,6 @@
     ]
   }],
   "rewrites": [
-    {"source": "/(.*)", "destination": "https://www.bing.com/new/$1"}
+    {"source": "/(.*)", "destination": "https://www.bing.com/search?$1"}
   ]
 }
