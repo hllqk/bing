@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    {"source": "/(.*)", "destination": "https://bing.com/new/$1"},
+  ]
+}
