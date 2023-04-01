@@ -4,7 +4,7 @@
     "headers" : [
       {
         "key" : "Referer",
-        "value" : "https://www.pixiv.net"
+        "value" : "https://www.bing.com/new/"
       },
       {
         "key" : "Access-Control-Allow-Headers",
@@ -17,6 +17,6 @@
     ]
   }],
   "rewrites": [
-    {"source": "/(.*)", "destination": "https://bing.com/new/$1"}
+    {"source": "/(.*)", "destination": "https://www.bing.com/new/$1"}
   ]
 }
